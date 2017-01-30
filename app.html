@@ -4,16 +4,29 @@
 <head>
     <meta charset="utf-8">
     <title>RBG Color Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
 </head>
 
 <body>
-    <h2>The Great</h2>
-    <h1 id="onscreenText">rbg(x, x, x)</h1>
-    <h2>Guessing Game</h2>
-
-    <ul></ul>
-
+    <div class="container-fluid">
+        <div id="correctBackgroundColor">
+            <h1>RBG Mini Game</h1>
+            <h2>Match the RGB value to the correct color!</h2>
+            <h1 id="onscreenRGB"></h1>
+            <h1 id="statusText"></h1>
+        </div>
+        <div class="bottomHalf">
+            <div class="options">
+                <h2 id="easyBtn">Easy</h2>
+                <h2 id="newGame">New Colors</h2>
+                <h2 id="hardBtn">Hard</h2>
+            </div>
+            <ul></ul>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 

@@ -1,0 +1,51 @@
+body{
+    background-color: #4F5052 !important;
+    height: 100%
+}
+.container-fluid {
+    padding: 0 !important;
+    text-align: center;
+}
+
+#correctBackgroundColor{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F5F5F5;
+
+}
+
+.options {
+    height: 75px;
+    width: 100%;
+    padding-top: 0;
+}
+
+#newGame {
+    width: 33.332%;
+    float: left;
+    color: white;
+}
+
+#easyBtn {
+    width: 33.332%;
+    float: left;
+    color: white;
+}
+
+#hardBtn {
+    width: 33.332%;
+    float: left;
+    color: white;
+}
+
+ul {
+    height: 140px;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 15px;
+    box-shadow: 2px 2px 5px;
+    border-radius: 2px;
+}
